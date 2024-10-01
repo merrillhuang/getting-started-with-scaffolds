@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get("/movies/new", { :controller => "movies", :action => "new" })
 
-  get("/movies/edit/:id", { :controller => "movies", :action => "edit" })
+  get("/movies/:id/edit", { :controller => "movies", :action => "edit" })
 
 
   # CREATE
